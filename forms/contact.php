@@ -48,7 +48,9 @@ $mail->Body    = $message ;
 //send the message, check for errors
 if (!$mail->send()) {
     echo "Mailer Error: " . $mail->ErrorInfo;
-} 
+} else{
+    echo "OK";
+}
 // $mail_message='Dear ';
 //                 $mail_message.='Thanks for contacting regarding to forgot password,<br> Your <b>Password</b> is <b></b>'."\r\n";
 //                 $mail_message.='<br>Please Update your password.';
