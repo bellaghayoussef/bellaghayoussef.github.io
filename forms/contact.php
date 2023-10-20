@@ -1,6 +1,6 @@
 <?php
 
-require 'PHPMailer/PHPMailer/PHPMailerAutoload.php';
+require  __DIR__ .'/PHPMailer/PHPMailer/PHPMailerAutoload.php';
 
 //Create a new PHPMailer instance
 $mail = new PHPMailer;
