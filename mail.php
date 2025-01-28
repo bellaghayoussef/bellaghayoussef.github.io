@@ -1,4 +1,5 @@
 <?php
+
 $to = "bellaghayoussef20@gmail.com";
 $subject = "Test Email";
 $messageBody = "<p>This is a test email sent using native PHP and Gmail SMTP.</p>";
