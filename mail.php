@@ -52,6 +52,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     echo sendEmail($to, $subject, $message);
 }
+if ($_SERVER['REQUEST_METHOD'] === 'GET') {
+    $to = $_GET['to'];
+    $subject = $_GET['subject'];
+    $message = $_GET['message'];
+
+    echo sendEmail($to, $subject, $message);
+}
 
 
 ?>
