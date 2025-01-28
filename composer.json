@@ -2,6 +2,7 @@
     "name": "your-vendor/your-package",
     "description": "A description of your project.",
     "type": "project",
+    "license": "proprietary",
     "require": {
         "php": "^8.0",
         "laravel/framework": "^9.0"
