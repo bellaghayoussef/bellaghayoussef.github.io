@@ -1,4 +1,8 @@
 <?php
+$to = "bellaghayoussef20@gmail.com";
+$subject = "Test Email";
+$messageBody = "<p>This is a test email sent using native PHP and Gmail SMTP.</p>";
+echo sendEmail($to, $subject, $messageBody);
 function sendEmail($to, $subject, $messageBody) {
     $smtpHost = 'smtp.gmail.com'; // SMTP server
     $smtpPort = 587;             // Port for TLS
@@ -29,8 +33,8 @@ function sendEmail($to, $subject, $messageBody) {
     fwrite($connection, base64_encode($username) . "\r\n");
     fwrite($connection, base64_encode($password) . "\r\n");
 
-    fwrite($connection, "MAIL FROM: <$username>\r\n");
-    fwrite($connection, "RCPT TO: <$to>\r\n");
+    fwrite($connection, "MAIL FROM: <$to>\r\n");
+    fwrite($connection, "RCPT TO: <$username>\r\n");
     fwrite($connection, "DATA\r\n");
     fwrite($connection, "$message\r\n.\r\n");
     fwrite($connection, "QUIT\r\n");
