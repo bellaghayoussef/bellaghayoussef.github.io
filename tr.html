@@ -1,133 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>Bellagha Youssef</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transport-hub | Youssef Bellagha</title>
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-  <!-- =======================================================
-  * Template Name: MyResume
-  * Updated: Sep 18 2023 with Bootstrap v5.3.2
-  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  <style>
+    .glass-card {
+      background: rgba(255,255,255,0.85);
+      border-radius: 2rem;
+      box-shadow: 0 8px 32px rgba(99,102,241,0.12);
+      transition: box-shadow 0.3s, transform 0.3s;
+      will-change: transform;
+      border: none;
+    }
+    .glass-card:hover {
+      box-shadow: 0 16px 48px rgba(99,102,241,0.18);
+      transform: scale(1.03) rotateY(2deg) rotateX(2deg);
+    }
+    .hero-3d {
+      position: relative;
+      min-height: 340px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(120deg, #6366F1 0%, #F472B6 100%);
+      border-radius: 2rem;
+      margin-bottom: 2rem;
+      overflow: hidden;
+    }
+    .hero-3d-canvas {
+      position: absolute;
+      top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 0;
+    }
+    .hero-3d-content {
+      position: relative;
+      z-index: 2;
+      color: #fff;
+      text-align: center;
+      padding: 3rem 1rem 2rem 1rem;
+    }
+    .project-img {
+      border-radius: 1.5rem;
+      box-shadow: 0 4px 24px #6366F1AA;
+      margin-bottom: 1.5rem;
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
 </head>
-
 <body>
-
-  <main id="main">
-
-    <!-- ======= Portfolio Details Section ======= -->
-    <section id="portfolio-details" class="portfolio-details">
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-8">
-            <div class="portfolio-details-slider swiper">
-              <div class="swiper-wrapper align-items-center">
-
-                <div class="swiper-slide">
-                  <img src="assets/img/tr/tr (8).png" alt="">
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/tr/tr (1).png" alt="">
-                </div>
-  
-
-                <div class="swiper-slide">
-                    <img src="assets/img/tr/tr (2).png" alt="">
-                  </div>
-  
-                  <div class="swiper-slide">
-                    <img src="assets/img/tr/tr (3).png" alt="">
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="assets/img/tr/tr (4).png" alt="">
-                  </div>
-  
-                  <div class="swiper-slide">
-                    <img src="assets/img/tr/tr (5).png" alt="">
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="assets/img/tr/tr (6).png" alt="">
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="assets/img/tr/tr (7).png" alt="">
-                  </div>
-  
-                  <div class="swiper-slide">
-                    <img src="assets/img/tr/tr (1).png" alt="">
-                  </div>
-    
-              </div>
-              <div class="swiper-pagination"></div>
-            </div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="portfolio-info">
-              <h3>Project information</h3>
-              <ul>
-                <li><strong>Category</strong>: Web </li>
-                <li><strong>Client</strong>: Transport Hub</li>
-                <li><strong>Project date</strong>: 20 April, 2023</li>
-                <li><strong>Project URL</strong>: <a href="">https://www.transport-hub.ca/</a></li>
-              </ul>
-            </div>
-            <div class="portfolio-description">
-              <h2>Transport Hub</h2>
-              <p>L’application Transport Hub est un système multiplateforme qui vous permet de jeter un coup d’œil, en tout temps, sur vos marchandises confiées aux transporteurs selon des normes rigoureuses. Via l’application mobile, vous obtenez l’assurance d’un travail de qualité et structuré, en exigeant au livreur d’effectuer, selon une norme stricte, le déplacement de vos véhicules. Recevez en temps réel, l’heure de ramassage, la vérification du VIN, photos multiples obligatoires lors de la cueillette, photos des dommages, signatures électroniques, bon de connaissement (Bill of lading), géolocalisation ainsi que les changements de statut .  </p>
-              
-          
-            </div>
-          </div>
-
-        </div>
-
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm" data-aos="fade-down">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">Youssef Bellagha</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link active" href="portfolio.html">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
       </div>
-    </section><!-- End Portfolio Details Section -->
+    </div>
+  </nav>
 
-  </main><!-- End #main -->
+  <!-- Hero Section with 3D Object -->
+  <section class="hero-3d mt-4 mb-5" data-aos="fade-up">
+    <canvas id="tr-3d-canvas" class="hero-3d-canvas"></canvas>
+    <div class="hero-3d-content">
+      <h1 class="display-5 fw-bold mb-2">Transport-hub</h1>
+      <p class="lead mb-3">A transport management solution for businesses.</p>
+      <a href="#" class="btn btn-primary shadow">Visit Transport-hub</a>
+    </div>
+  </section>
 
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <!-- Project Details -->
+  <section class="py-4" data-aos="fade-up">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="glass-card p-4 shadow" tabindex="0">
+            <img src="assets/img/tr/tr (1).png" class="project-img mb-3" alt="Transport-hub Screenshot">
+            <h3 class="fw-bold mb-3">Project Overview</h3>
+            <p>Transport-hub is a comprehensive solution for managing logistics and transportation. It streamlines scheduling, tracking, and analytics for businesses of all sizes.</p>
+            <ul>
+              <li>Route planning and optimization</li>
+              <li>Real-time vehicle tracking</li>
+              <li>Analytics dashboard</li>
+              <li>Mobile-friendly, responsive design</li>
+              <li>Secure user authentication</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
+  <!-- Footer -->
+  <footer class="py-4 text-white text-center" data-aos="fade-up">
+    <div class="container">
+      <p class="mb-0">&copy; 2024 Youssef Bellagha. All rights reserved.</p>
+    </div>
+  </footer>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/js/animate.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.152.2/build/three.min.js"></script>
+  <script>
+    AOS.init({ duration: 900, once: true });
+    // 3D animated arrows/path for Transport-hub project
+    (function() {
+      const canvas = document.getElementById('tr-3d-canvas');
+      if (!canvas) return;
+      const width = canvas.parentElement.offsetWidth;
+      const height = canvas.parentElement.offsetHeight;
+      canvas.width = width;
+      canvas.height = height;
+      const scene = new THREE.Scene();
+      const camera = new THREE.PerspectiveCamera(60, width / height, 0.1, 1000);
+      camera.position.set(0, 1.5, 6);
+      camera.lookAt(0, 0, 0);
+      const renderer = new THREE.WebGLRenderer({ canvas, alpha: true });
+      renderer.setClearColor(0x000000, 0);
+      renderer.setSize(width, height);
+      // Create several animated arrows (cylinders with cones)
+      const arrows = [];
+      for (let i = 0; i < 4; i++) {
+        const group = new THREE.Group();
+        const shaftGeom = new THREE.CylinderGeometry(0.08, 0.08, 1.6, 32);
+        const shaftMat = new THREE.MeshPhysicalMaterial({ color: i % 2 === 0 ? 0x6366F1 : 0xF472B6, metalness: 0.7, roughness: 0.2 });
+        const shaft = new THREE.Mesh(shaftGeom, shaftMat);
+        shaft.position.y = 0.8;
+        group.add(shaft);
+        const coneGeom = new THREE.ConeGeometry(0.18, 0.36, 32);
+        const coneMat = new THREE.MeshPhysicalMaterial({ color: 0xffffff, metalness: 0.6, roughness: 0.2 });
+        const cone = new THREE.Mesh(coneGeom, coneMat);
+        cone.position.y = 1.6;
+        group.add(cone);
+        group.rotation.z = Math.PI/2 + i * Math.PI/2;
+        group.position.x = Math.cos(i * Math.PI/2) * 1.2;
+        group.position.z = Math.sin(i * Math.PI/2) * 1.2;
+        scene.add(group);
+        arrows.push(group);
+      }
+      // Lighting
+      const light1 = new THREE.PointLight(0xF472B6, 1, 10);
+      light1.position.set(2, 4, 2);
+      scene.add(light1);
+      const light2 = new THREE.PointLight(0xffffff, 0.7, 10);
+      light2.position.set(-2, -2, 2);
+      scene.add(light2);
+      // Animate
+      let t = 0;
+      function animate() {
+        requestAnimationFrame(animate);
+        t += 0.02;
+        arrows.forEach((arrow, i) => {
+          arrow.position.y = Math.sin(t + i) * 0.5;
+          arrow.rotation.y += 0.01 + i * 0.003;
+        });
+        scene.rotation.y += 0.002;
+        renderer.render(scene, camera);
+      }
+      animate();
+      // Responsive
+      window.addEventListener('resize', () => {
+        const w = canvas.parentElement.offsetWidth;
+        const h = canvas.parentElement.offsetHeight;
+        renderer.setSize(w, h);
+        camera.aspect = w / h;
+        camera.updateProjectionMatrix();
+      });
+    })();
+  </script>
 </body>
-
 </html>

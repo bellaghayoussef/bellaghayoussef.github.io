@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to My Blog | Youssef Bellagha</title>
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  <style>
+    .glass-card {
+      background: rgba(255,255,255,0.85);
+      border-radius: 2rem;
+      box-shadow: 0 8px 32px rgba(99,102,241,0.12);
+      transition: box-shadow 0.3s, transform 0.3s;
+      will-change: transform;
+      border: none;
+    }
+    .glass-card:hover {
+      box-shadow: 0 16px 48px rgba(99,102,241,0.18);
+      transform: scale(1.03) rotateY(2deg) rotateX(2deg);
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm" data-aos="fade-down">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">Youssef Bellagha</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link active" href="blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!-- Blog Post -->
+<section class="py-5 bg-light" data-aos="fade-up">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-8 glass-card p-4 shadow" data-aos="zoom-in" tabindex="0">
+        <h1 class="mb-3 fw-bold">Mastering Flutter in 2024: From Beginner to Pro</h1>
+        <small class="text-muted">July 23, 2025</small>
+        <hr>
+        <p>Flutter has revolutionized cross-platform development by allowing developers to build beautiful, performant apps for Android, iOS, web, and desktop — all from a single codebase. In this guide, we’ll walk through everything you need to know to master Flutter in 2024.</p>
+
+        <h3 class="fw-bold mt-4">1. Why Choose Flutter?</h3>
+        <p>Flutter is powered by Dart and maintained by Google. It offers:</p>
+        <ul>
+          <li><strong>Fast Development</strong> with hot reload.</li>
+          <li><strong>Expressive UI</strong> with widgets and animations.</li>
+          <li><strong>Cross-platform</strong> support.</li>
+          <li><strong>Active community</strong> and growing ecosystem.</li>
+        </ul>
+
+        <h3 class="fw-bold mt-4">2. Setting Up Your Environment</h3>
+        <p>To begin, install:</p>
+        <ul>
+          <li><code>Flutter SDK</code> from flutter.dev</li>
+          <li><code>Android Studio</code> or <code>Visual Studio Code</code> as your IDE</li>
+          <li><code>Dart</code> plugin</li>
+        </ul>
+        <p>Run <code>flutter doctor</code> to verify your setup and fix any issues.</p>
+
+        <h3 class="fw-bold mt-4">3. Understanding Flutter Architecture</h3>
+        <p>Flutter follows a widget-based architecture. Everything is a widget — from text, buttons, layouts, to animations. Key concepts:</p>
+        <ul>
+          <li><strong>StatelessWidget</strong> – no internal state</li>
+          <li><strong>StatefulWidget</strong> – can hold and update state</li>
+          <li><strong>BuildContext</strong> – handles widget tree traversal</li>
+        </ul>
+
+        <h3 class="fw-bold mt-4">4. Mastering Layouts and UI</h3>
+        <p>Use widgets like:</p>
+        <ul>
+          <li><code>Row</code>, <code>Column</code>, <code>Stack</code></li>
+          <li><code>Container</code>, <code>Padding</code>, <code>Center</code></li>
+          <li><code>Expanded</code> and <code>Flexible</code></li>
+        </ul>
+        <p>Design responsive UIs using <code>MediaQuery</code> and <code>LayoutBuilder</code>.</p>
+
+        <h3 class="fw-bold mt-4">5. Navigation & Routing</h3>
+        <p>Flutter supports both basic and advanced navigation:</p>
+        <ul>
+          <li><code>Navigator.push</code> / <code>pop</code></li>
+          <li>Named routes using <code>onGenerateRoute</code></li>
+          <li>Packages like <code>go_router</code> for declarative routing</li>
+        </ul>
+
+        <h3 class="fw-bold mt-4">6. State Management</h3>
+        <p>This is a major topic in Flutter. Options include:</p>
+        <ul>
+          <li><strong>Provider</strong> – lightweight, recommended by the Flutter team</li>
+          <li><strong>Riverpod</strong> – more robust and testable</li>
+          <li><strong>Bloc</strong> – for complex business logic</li>
+          <li><strong>GetX</strong> – simple and powerful, great for small to mid-sized apps</li>
+        </ul>
+
+        <h3 class="fw-bold mt-4">7. Working with APIs</h3>
+        <p>Use <code>http</code> or <code>dio</code> packages to connect with REST APIs. For example:</p>
+        <pre><code>final response = await http.get(Uri.parse("https://api.example.com/data"));</code></pre>
+
+        <h3 class="fw-bold mt-4">8. Animations & Effects</h3>
+        <p>Enhance UX with:</p>
+        <ul>
+          <li><code>AnimatedContainer</code>, <code>AnimatedOpacity</code></li>
+          <li><code>Hero</code> transitions</li>
+          <li><code>AnimationController</code> for fine control</li>
+        </ul>
+
+        <h3 class="fw-bold mt-4">9. Testing Your App</h3>
+        <p>Flutter has great support for testing:</p>
+        <ul>
+          <li><strong>Unit tests</strong>: Test business logic</li>
+          <li><strong>Widget tests</strong>: Test UI components</li>
+          <li><strong>Integration tests</strong>: End-to-end testing</li>
+        </ul>
+
+        <h3 class="fw-bold mt-4">10. Deploying Your App</h3>
+        <ul>
+          <li><strong>Android</strong>: Build APKs or AABs with <code>flutter build apk</code> or <code>flutter build appbundle</code></li>
+          <li><strong>iOS</strong>: Use Xcode and follow Apple guidelines</li>
+          <li><strong>Web</strong>: Deploy with Firebase Hosting or Vercel</li>
+        </ul>
+
+        <h3 class="fw-bold mt-4">11. Flutter Packages to Know</h3>
+        <ul>
+          <li><code>flutter_bloc</code>, <code>riverpod</code>, <code>get</code></li>
+          <li><code>fluttertoast</code>, <code>url_launcher</code>, <code>google_maps_flutter</code></li>
+          <li><code>firebase_core</code> and <code>cloud_firestore</code></li>
+        </ul>
+
+        <h3 class="fw-bold mt-4">Final Words</h3>
+        <p>Flutter is here to stay. With the right practice and consistency, you can build anything from a simple to-do app to a full-scale production application. In 2024, Flutter is not just a framework — it’s an ecosystem.</p>
+
+        <a href="blog.html" class="btn btn-outline-primary mt-4">Back to Blog</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer class="py-4 text-white text-center" data-aos="fade-up">
+    <div class="container">
+      <p class="mb-0">&copy; 2024 Youssef Bellagha. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/js/animate.js"></script>
+  <script>
+    AOS.init({
+      duration: 900,
+      once: true
+    });
+  </script>
+</body>
+</html> 

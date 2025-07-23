@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Youssef Bellagha</title>
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  <style>
+    .glass-card {
+      background: rgba(255,255,255,0.85);
+      border-radius: 2rem;
+      box-shadow: 0 8px 32px rgba(99,102,241,0.12);
+      transition: box-shadow 0.3s, transform 0.3s;
+      will-change: transform;
+      border: none;
+    }
+    .glass-card:hover {
+      box-shadow: 0 16px 48px rgba(99,102,241,0.18);
+      transform: scale(1.03) rotateY(2deg) rotateX(2deg);
+    }
+    .card-img-top {
+      border-radius: 2rem 2rem 0 0;
+      box-shadow: 0 2px 12px rgba(99,102,241,0.08);
+      transition: box-shadow 0.3s, transform 0.3s;
+    }
+    .glass-card:hover .card-img-top {
+      box-shadow: 0 8px 32px #F472B6AA;
+      transform: scale(1.04) rotate(-2deg);
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm" data-aos="fade-down">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">Youssef Bellagha</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link active" href="portfolio.html">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Portfolio Section -->
+  <section class="py-5 bg-light" data-aos="fade-up">
+    <div class="container">
+      <h1 class="text-center mb-5 section-title">My Projects</h1>
+      <div class="row">
+        <div class="col-md-4 mb-4" data-aos="flip-left" data-aos-delay="100">
+          <div class="card h-100 glass-card" tabindex="0">
+            <img src="assets/img/ejar/ejar (1).png" class="card-img-top" alt="Ejar">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Ejar</h5>
+              <p class="card-text">A property rental platform with modern UI and robust features.</p>
+              <a href="ejar.html" class="btn btn-outline-primary">View Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4" data-aos="flip-left" data-aos-delay="200">
+          <div class="card h-100 glass-card" tabindex="0">
+            <img src="assets/img/go/1.png" class="card-img-top" alt="Go">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Gocrispy</h5>
+              <p class="card-text">A travel and booking solution for modern explorers.</p>
+              <a href="go.html" class="btn btn-outline-primary">View Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4" data-aos="flip-left" data-aos-delay="300">
+          <div class="card h-100 glass-card" tabindex="0">
+            <img src="assets/img/tasareeh/tasareeh (4).png" class="card-img-top" alt="Tasareeh">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Tasareeh</h5>
+              <p class="card-text">A digital permit management application for businesses.</p>
+              <a href="tasareeh.html" class="btn btn-outline-primary">View Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4" data-aos="flip-left" data-aos-delay="400">
+          <div class="card h-100 glass-card" tabindex="0">
+            <img src="assets/img/tasareehapp/tasareeh (4).png" class="card-img-top" alt="Tasareeh App">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Tasareeh App</h5>
+              <p class="card-text">Mobile app for digital permit management.</p>
+              <a href="tasareehapp.html" class="btn btn-outline-primary">View Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4" data-aos="flip-left" data-aos-delay="500">
+          <div class="card h-100 glass-card" tabindex="0">
+            <img src="assets/img/tgt/tgt4.webp" class="card-img-top" alt="TGT">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Tunisia Go Travel</h5>
+              <p class="card-text">A web platform for targeted group training.</p>
+              <a href="tgt.html" class="btn btn-outline-primary">View Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4" data-aos="flip-left" data-aos-delay="600">
+          <div class="card h-100 glass-card" tabindex="0">
+            <img src="assets/img/tr/tr (1).png" class="card-img-top" alt="TR">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Transport-hub</h5>
+              <p class="card-text">A transport management solution for businesses.</p>
+              <a href="tr.html" class="btn btn-outline-primary">View Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-4 text-white text-center" data-aos="fade-up">
+    <div class="container">
+      <p class="mb-0">&copy; 2024 Youssef Bellagha. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/js/animate.js"></script>
+  <script>
+    AOS.init({
+      duration: 900,
+      once: true
+    });
+  </script>
+</body>
+</html> 

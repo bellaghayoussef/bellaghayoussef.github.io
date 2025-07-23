@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog | Youssef Bellagha</title>
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  <style>
+    .glass-card {
+      background: rgba(255,255,255,0.85);
+      border-radius: 2rem;
+      box-shadow: 0 8px 32px rgba(99,102,241,0.12);
+      transition: box-shadow 0.3s, transform 0.3s;
+      will-change: transform;
+      border: none;
+    }
+    .glass-card:hover {
+      box-shadow: 0 16px 48px rgba(99,102,241,0.18);
+      transform: scale(1.03) rotateY(2deg) rotateX(2deg);
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm" data-aos="fade-down">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">Youssef Bellagha</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link active" href="blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Blog Section -->
+  <section class="py-5 bg-light" data-aos="fade-up">
+    <div class="container">
+      <h1 class="text-center mb-5 section-title">Blog</h1>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <div class="list-group">
+        
+
+            <a href="blog-post-2.html" class="list-group-item list-group-item-action mb-3 glass-card" data-aos="fade-up" data-aos-delay="100" tabindex="0">
+              <h5 class="mb-1 fw-bold">Mastering Flutter in 2024: From Beginner to Pro</h5>
+            
+              <p class="mb-1">Flutter has revolutionized cross-platform development by allowing developers to build beautiful, performant apps for Android, iOS, web, and desktop — all from a single codebase. In this guide, we’ll walk through everything you need to know to master Flutter in 2024.</p>
+            </a>
+
+
+            <a href="blog-post-3.html" class="list-group-item list-group-item-action mb-3 glass-card" data-aos="fade-up" data-aos-delay="100" tabindex="0">
+              <h5 class="mb-1 fw-bold">The Complete Guide to Becoming a Modern Web Developer in 2024</h5>
+            
+              <p class="mb-1">Web development is one of the most dynamic and rewarding careers in tech. In 2024, the ecosystem has evolved with powerful tools, frameworks, and methodologies that make building modern applications faster and more scalable than ever.</p>
+            </a>
+            <!-- Add more blog post links here -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  
+  <!-- Footer -->
+  <footer class="py-4 text-white text-center" data-aos="fade-up">
+    <div class="container">
+      <p class="mb-0">&copy; 2024 Youssef Bellagha. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/js/animate.js"></script>
+  <script>
+    AOS.init({
+      duration: 900,
+      once: true
+    });
+  </script>
+</body>
+</html> 
