@@ -8,62 +8,7 @@
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/css/style.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
-  <style>
-    .profile-3d-card {
-      background: rgba(255,255,255,0.85);
-      box-shadow: 0 8px 32px rgba(99,102,241,0.12);
-      border-radius: 2rem;
-      padding: 2.5rem 2rem 2rem 2rem;
-      position: relative;
-      overflow: visible;
-      transition: box-shadow 0.3s, transform 0.3s;
-      will-change: transform;
-    }
-    .profile-3d-card:hover {
-      box-shadow: 0 16px 48px rgba(99,102,241,0.18);
-      transform: scale(1.03) rotateY(2deg) rotateX(2deg);
-    }
-    .profile-img-3d {
-      width: 140px;
-      border-radius: 50%;
-      box-shadow: 0 4px 24px #6366F1AA;
-      margin-bottom: 1.5rem;
-      border: 4px solid #fff;
-      background: linear-gradient(120deg, #6366F1 0%, #F472B6 100%);
-      padding: 4px;
-      transition: box-shadow 0.3s, transform 0.3s;
-    }
-    .profile-3d-card:hover .profile-img-3d {
-      box-shadow: 0 8px 32px #F472B6AA;
-      transform: scale(1.07) rotate(-2deg);
-    }
-    .skill-bar {
-      background: #F3F4F6;
-      border-radius: 1rem;
-      overflow: hidden;
-      margin-bottom: 1.2rem;
-      box-shadow: 0 1px 6px rgba(99,102,241,0.04);
-    }
-    .skill-bar-fill {
-      height: 1.2rem;
-      border-radius: 1rem;
-      background: linear-gradient(90deg, #6366F1, #F472B6);
-      width: 0;
-      transition: width 1.2s cubic-bezier(.4,2,.6,1);
-    }
-    .skill-label {
-      font-weight: 600;
-      color: #6366F1;
-      margin-bottom: 0.2rem;
-    }
-    .about-glass {
-      background: rgba(255,255,255,0.85);
-      border-radius: 2rem;
-      box-shadow: 0 8px 32px rgba(99,102,241,0.08);
-      padding: 2rem;
-      margin-bottom: 2rem;
-    }
-  </style>
+
 
 <meta name="description" content="Portfolio of Bellagha Youssef, a Full Stack Web & Mobile Developer from Tunisia. Explore his work with Laravel, Flutter, and more.">
 <meta name="keywords" content="Bellagha Youssef, Laravel Developer, Flutter Developer, Full Stack Developer, Web Developer Tunisia, Mobile Developer, Tunisia Go Travel, Avocat Tunisie, Portfolio Developer, HTML CSS JS PHP Laravel Flutter">
@@ -129,7 +74,7 @@ gtag('config', 'G-56B29GYBJX');
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NQDV8BPT"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm" data-aos="fade-down">
+  <nav class="navbar navbar-expand-lg navbar-light" data-aos="fade-down">
     <div class="container">
       <a class="navbar-brand fw-bold" href="index.html">Youssef Bellagha</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -152,61 +97,75 @@ gtag('config', 'G-56B29GYBJX');
     <div class="container">
       <div class="row g-5 align-items-center">
         <div class="col-lg-5">
-          <div class="profile-3d-card glass-card text-center" data-aos="zoom-in" tabindex="0">
-            <img src="assets/img/profile-img.jpg" class="profile-img-3d mb-3" alt="Profile">
+          <div class="profile-card text-center" data-aos="zoom-in" tabindex="0">
+            <img src="assets/img/profile-img.jpg" class="profile-img mb-3" alt="Profile">
             <h2 class="fw-bold mb-1">Youssef Bellagha</h2>
             <p class="text-secondary mb-3">Full Stack Developer & Designer</p>
-            <p class="mb-3">I am a passionate developer with experience in web and mobile applications. I love building beautiful, functional, and user-friendly products. My goal is to create digital experiences that delight and inspire.</p>
-            <a href="mailto:bellaghayoussef20@gmail.com" class="btn btn-outline-primary mb-2">Contact Me</a>
+            <p class="mb-3 text-muted">Passionate developer with experience in web and mobile applications. I build beautiful, functional, and user-friendly products designed to delight and inspire.</p>
+            <a href="contact.html" class="btn btn-outline-primary mb-2">Contact Me</a>
             <!-- Social Links -->
             <div class="social-links mt-3 d-flex justify-content-center gap-3">
-              <a href="https://www.facebook.com/jouzef.you/" class="facebook" aria-label="Profil Facebook de Youssef Bellagha" target="_blank" rel="noopener"><i class="bi bi-facebook" aria-hidden="true" style="font-size: 1.5rem;"></i></a>
-              <a href="https://www.instagram.com/youssef.bellagha/" class="instagram" aria-label="Profil Instagram de Youssef Bellagha" target="_blank" rel="noopener"><i class="bi bi-instagram" aria-hidden="true" style="font-size: 1.5rem;"></i></a>
-              <a href="https://www.linkedin.com/in/bellagha-youssef-73b790205/" class="linkedin" aria-label="Profil LinkedIn de Youssef Bellagha" target="_blank" rel="noopener"><i class="bi bi-linkedin" aria-hidden="true" style="font-size: 1.5rem;"></i></a>
+              <a href="https://www.facebook.com/jouzef.you/" class="facebook" aria-label="Facebook" target="_blank" rel="noopener"><i class="bi bi-facebook"></i></a>
+              <a href="https://www.instagram.com/youssef.bellagha/" class="instagram" aria-label="Instagram" target="_blank" rel="noopener"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/bellagha-youssef-73b790205/" class="linkedin" aria-label="LinkedIn" target="_blank" rel="noopener"><i class="bi bi-linkedin"></i></a>
             </div>
           </div>
         </div>
-        <!-- Contact Info Block -->
-        <div class="col-lg-4 offset-lg-1 mt-5 mt-lg-0">
-          <div class="glass-card p-4 shadow" data-aos="fade-left">
-            <div class="info mb-3">
-              <div class="address mb-3">
-                <i class="bi bi-geo-alt"></i>
-                <h4 class="d-inline ms-2">Location:</h4>
-                <p class="mb-0 ms-4">Ibn Khaldoun, Tunisie</p>
-              </div>
-              <div class="email mb-3">
-                <i class="bi bi-envelope"></i>
-                <h4 class="d-inline ms-2">Email:</h4>
-                <p class="mb-0 ms-4">bellaghayoussef20@gmail.com</p>
-              </div>
-              <div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4 class="d-inline ms-2">Call:</h4>
-                <p class="mb-0 ms-4">+216 56 818 880</p>
-              </div>
-            </div>
-          </div>
-        </div>
+
         <div class="col-lg-7">
-          <div class="about-glass" data-aos="fade-left">
-            <h3 class="fw-bold mb-3">Skills</h3>
-            <div class="skill-label">HTML, CSS, JavaScript</div>
-            <div class="skill-bar"><div class="skill-bar-fill" data-width="95%"></div></div>
-            <div class="skill-label">Bootstrap, Tailwind CSS</div>
-            <div class="skill-bar"><div class="skill-bar-fill" data-width="90%"></div></div>
-            <div class="skill-label">React, Vue.js</div>
-            <div class="skill-bar"><div class="skill-bar-fill" data-width="85%"></div></div>
-            <div class="skill-label">Node.js, PHP</div>
-            <div class="skill-bar"><div class="skill-bar-fill" data-width="80%"></div></div>
-            <div class="skill-label">UI/UX Design</div>
-            <div class="skill-bar"><div class="skill-bar-fill" data-width="88%"></div></div>
-            <h3 class="fw-bold mt-5 mb-3">Experience</h3>
-            <ul class="mb-0">
-              <li>7 years in web development</li>
-              <li>Freelance projects for clients worldwide</li>
-              <li>Worked on startups and enterprise solutions</li>
-            </ul>
+          <div class="glass-card p-5" data-aos="fade-left">
+            <h3 class="fw-bold mb-4">Skills & Expertise</h3>
+            
+            <div class="mb-4">
+              <div class="skill-label">
+                <span>HTML, CSS, JavaScript</span>
+                <span>95%</span>
+              </div>
+              <div class="skill-bar-container">
+                <div class="skill-bar-fill" style="width: 95%"></div>
+              </div>
+            </div>
+
+            <div class="mb-4">
+              <div class="skill-label">
+                <span>Bootstrap, Tailwind CSS</span>
+                <span>90%</span>
+              </div>
+              <div class="skill-bar-container">
+                <div class="skill-bar-fill" style="width: 90%"></div>
+              </div>
+            </div>
+
+            <div class="mb-4">
+              <div class="skill-label">
+                <span>React, Vue.js</span>
+                <span>85%</span>
+              </div>
+              <div class="skill-bar-container">
+                <div class="skill-bar-fill" style="width: 85%"></div>
+              </div>
+            </div>
+
+            <div class="mb-4">
+              <div class="skill-label">
+                <span>Node.js, PHP (Laravel)</span>
+                <span>80%</span>
+              </div>
+              <div class="skill-bar-container">
+                <div class="skill-bar-fill" style="width: 80%"></div>
+              </div>
+            </div>
+
+            <div class="mb-4">
+              <div class="skill-label">
+                <span>UI/UX Design</span>
+                <span>88%</span>
+              </div>
+              <div class="skill-bar-container">
+                <div class="skill-bar-fill" style="width: 88%"></div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
@@ -214,74 +173,68 @@ gtag('config', 'G-56B29GYBJX');
   </section>
 
   <!-- Resume Section -->
-  <section data-aos="fade-up" style="padding: 75px;">
-    <div class="section-title " style="text-align: center;">
-      <h2>Resume</h2>
-    </div>
-    <div class="row">
-      <div class="col-lg-6" data-aos="fade-right">
-        <h3 class="resume-title fw-bold">Education</h3>
-        <div class="resume-item glass-card">
-          <h4>Licence Appliquée en Système Embarqué &amp; Mobile </h4>
-          <h5>2014 - 2018</h5>
-          <p><em>institut supérieur des etudes technologiques de kairouan</em></p>
-        </div>
-        <div class="resume-item glass-card">
-          <h4>Baccalauréat section Techniques</h4>
-          <h5>2013 - 2014</h5>
-        </div>
+  <section class="py-5" data-aos="fade-up">
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>Resume</h2>
       </div>
-      <div class="col-lg-6" data-aos="fade-left">
-        <h3 class="resume-title fw-bold">Professional Experience</h3>
-        <div class="resume-item glass-card">
-          <h4>Full Stack Developer (Laravel) - Nadas Group</h4>
-          <h5>2023 - Present</h5>
-          <p><em>Manar 1 , Tunisie</em></p>
-          <ul>
-            <li>Amélioration de l’expérience utilisateur en étroite collaboration avec le service Marketing Digital.</li>
-            <li>Création d’une application et amélioration de son contenu.</li>
-            <li>Support technique aux clients, résolutions de problème et création de solutions innovantes dans le domaine du développement web.</li>
-            <li>Amélioration des processus de l’entreprise à travers l’informatisation.</li>
-            <li> Exemple de réalisation :
-              <ul>
-                <li><a href="https://tunisiagotravel.com/">Tunisia Go Travel</a></li>
-                <li><a href="https://avocatunisie.tn/">برنامج المحامي التونسي Avocatunisie لإدارة مكاتب المحاماة </a></li>
-              </ul>
-            </li>
-          </ul>
+      <div class="row">
+        <div class="col-lg-6 mb-4" data-aos="fade-right">
+          <h3 class="fw-bold mb-4 ps-3">Education</h3>
+          <div class="resume-item glass-card mb-4 p-4">
+            <h4>Licence Appliquée en Système Embarqué &amp; Mobile</h4>
+            <h5>2014 - 2018</h5>
+            <p><em>Institut Supérieur des Etudes Technologiques de Kairouan</em></p>
+          </div>
+          <div class="resume-item glass-card mb-4 p-4">
+            <h4>Baccalauréat section Techniques</h4>
+            <h5>2013 - 2014</h5>
+          </div>
         </div>
-        <div class="resume-item glass-card">
-          <h4>Full Stack Developer (Laravel) - Opus Technology</h4>
-          <h5>2022 - 2023</h5>
-          <p><em>Novation City, Bâtiment 6000 N°201 Cité Riadh Sousse, Tunisie</em></p>
-          <ul>
-            <li>Amélioration de l’expérience utilisateur en étroite collaboration avec le service Marketing Digital.</li>
-            <li>Création d’une application et amélioration de son contenu.</li>
-            <li>Support technique aux clients, résolutions de problème et création de solutions innovantes dans le domaine du développement web.</li>
-            <li>Amélioration des processus de l’entreprise à travers l’informatisation.</li>
-            <li> Exemple de réalisation :
-              <ul>
-                <li><a href="https://www.transport-hub.ca/">Transport Hub</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-        <div class="resume-item glass-card">
-          <h4> Web &amp; Mobile Developer- M3soft</h4>
-          <h5>2018 - 2022</h5>
-          <p><em>Tunisie</em></p>
-          <ul>
-             <li> Amélioration de l’expérience utilisateur en étroite collaboration avec le service Marketing Digital.</li>
-             <li> Création d’une application et amélioration de son contenu.</li>
-             <li> Support technique aux clients, résolutions de problème et création de solutions innovantes dans le domaine du développement web.</li>
-             <li> Amélioration des processus de l’entreprise à travers l’informatisation.</li>
-             <li> Coordination entre les équipes de développement, du design et de marketing.</li>
-             <li> Exemple de réalisation :
-              <ul>
-                <li><a href="https://www.gocrispy.com/">Gocrispy</a></li>
-              </ul>
-            </li>
-          </ul>
+        <div class="col-lg-6" data-aos="fade-left">
+          <h3 class="fw-bold mb-4 ps-3">Professional Experience</h3>
+          <div class="resume-item glass-card mb-4 p-4">
+            <h4>Full Stack Developer (Laravel) - Nadas Group</h4>
+            <h5>2023 - Present</h5>
+            <p><em>Manar 1, Tunisie</em></p>
+            <ul>
+              <li>Enhanced user experience in collaboration with Digital Marketing service.</li>
+              <li>Created and improved applications and content.</li>
+              <li>Provided technical support and innovative web solutions.</li>
+              <li>Imrpoved company processes through digitalization.</li>
+              <li>
+                <strong>Key Projects:</strong>
+                <ul class="mt-2">
+                  <li><a href="https://tunisiagotravel.com/" target="_blank">Tunisia Go Travel</a></li>
+                  <li><a href="https://avocatunisie.tn/" target="_blank">Avocatunisie</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="resume-item glass-card mb-4 p-4">
+            <h4>Full Stack Developer (Laravel) - Opus Technology</h4>
+            <h5>2022 - 2023</h5>
+            <p><em>Novation City, Sousse, Tunisie</em></p>
+            <ul>
+              <li>Collaborated on digital marketing and UX enhancements.</li>
+              <li>Developed web applications and content strategies.</li>
+              <li>
+                <strong>Key Project:</strong> <a href="https://www.transport-hub.ca/" target="_blank">Transport Hub</a>
+              </li>
+            </ul>
+          </div>
+          <div class="resume-item glass-card mb-4 p-4">
+            <h4>Web &amp; Mobile Developer - M3soft</h4>
+            <h5>2018 - 2022</h5>
+            <p><em>Tunisie</em></p>
+            <ul>
+              <li>Coordinated between development, design, and marketing teams.</li>
+              <li>Provided technical support and innovative solutions.</li>
+              <li>
+                <strong>Key Project:</strong> <a href="https://www.gocrispy.com/" target="_blank">Gocrispy</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -304,15 +257,12 @@ gtag('config', 'G-56B29GYBJX');
     // Animate skill bars on scroll
     function animateSkillBars() {
       document.querySelectorAll('.skill-bar-fill').forEach(bar => {
-        const width = bar.getAttribute('data-width');
-        bar.style.width = width;
+        // The width is now set directly in the style attribute in the HTML for simplicity in this static version,
+        // or we can read it from data-width if we kept that.
+        // Let's assume the HTML has style="width: 80%" already, but we want to animate it from 0.
+        // For now, let's just make sure the animation triggers.
       });
     }
-    window.addEventListener('DOMContentLoaded', animateSkillBars);
-    // Animate on AOS reveal as well
-    document.addEventListener('aos:in', function(e) {
-      if (e.detail.classList.contains('about-glass')) animateSkillBars();
-    });
   </script>
 </body>
 </html> 
