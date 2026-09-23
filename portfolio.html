@@ -2,201 +2,488 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="robots" content="index, follow"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio | Youssef Bellagha</title>
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/css/style.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
-
-  <meta name="description" content="Portfolio of Bellagha Youssef, a Full Stack Web & Mobile Developer from Tunisia. Explore his work with Laravel, Flutter, and more.">
-  <meta name="keywords" content="Bellagha Youssef, Laravel Developer, Flutter Developer, Full Stack Developer, Web Developer Tunisia, Mobile Developer, Tunisia Go Travel, Avocat Tunisie, Portfolio Developer, HTML CSS JS PHP Laravel Flutter">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio & Projects | Bellagha Youssef - Senior Full Stack Developer</title>
+  <meta name="description" content="Explore production projects engineered by Bellagha Youssef, Senior Full Stack Developer. Web apps, Flutter mobile apps, SaaS, and real-time scraping.">
+  <meta name="keywords" content="Bellagha Youssef Portfolio, Laravel Projects, Flutter Apps, Vue.js Applications, Avocat Tunisie, Tunisia Go Travel, BookiTrip, Transport Hub">
   <meta name="author" content="Bellagha Youssef">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://bellaghayoussef.github.io/">
+  <link rel="canonical" href="https://bellaghayoussef.github.io/portfolio.html">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Open Graph / Facebook -->
-  <meta property="og:title" content="Bellagha Youssef – Web & Mobile Developer Portfolio">
-  <meta property="og:description" content="Explore projects developed by Bellagha Youssef – expert in Laravel, Flutter, and full-stack solutions.">
-  <meta property="og:image" content="https://bellaghayoussef.github.io/assets/img/profile-img.jpg">
-  <meta property="og:url" content="https://bellaghayoussef.github.io/">
-  <meta property="og:type" content="website">
-<meta name="google-site-verification" content="aN2w_E-dmDmrfmdUEjU8pZTi-E0ZsBLwtp9fEKUOVqg" />
-<meta property="fb:app_id" content="1729372424418925" />
-
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Bellagha Youssef – Web & Mobile Developer Portfolio">
-  <meta name="twitter:description" content="Discover the portfolio of Bellagha Youssef, full-stack Laravel & Flutter developer based in Tunisia.">
-  <meta name="twitter:image" content="https://bellaghayoussef.github.io/assets/img/profile-img.jpg">
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-56B29GYBJX"></script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-NQDV8BPT');</script>
-<!-- End Google Tag Manager -->
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-56B29GYBJX');
-</script>
-  <!-- JSON-LD Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Bellagha Youssef",
-    "url": "https://bellaghayoussef.github.io/",
-    "image": "https://bellaghayoussef.github.io/assets/img/profile-img.jpg",
-    "sameAs": [
-      "https://www.linkedin.com/in/bellagha-youssef-73b790205/",
-      "https://www.facebook.com/jouzef.you/",
-      "https://www.instagram.com/youssef.bellagha/"
-    ],
-    "jobTitle": "Web & Mobile Developer",
-    "worksFor": {
-      "@type": "Organization",
-      "name": "Freelance"
-    }
-  }
-  </script>
+  <!-- Fonts & Stylesheets -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="assets/vendor/aos/aos.css">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NQDV8BPT"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light" data-aos="fade-down">
+  <nav class="navbar navbar-expand-lg navbar-dark" id="mainNavbar">
     <div class="container">
-      <a class="navbar-brand fw-bold" href="index.html">Youssef Bellagha</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand" href="index.html">
+        <span style="font-weight:800; letter-spacing:-0.03em;">YOUSSEF<span style="color:var(--primary-light);">.DEV</span></span>
+        <span class="brand-badge">PORTFOLIO</span>
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-1">
           <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About & CV</a></li>
           <li class="nav-item"><a class="nav-link active" href="portfolio.html">Portfolio</a></li>
-          <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
           <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
+            <a class="nav-cta d-inline-flex align-items-center gap-2" href="contact.html">
+              <i class="bi bi-chat-dots-fill"></i> Get in Touch
+            </a>
+          </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <!-- Portfolio Section -->
-  <section class="py-5 bg-light" data-aos="fade-up">
+  <!-- Portfolio Header -->
+  <section class="py-5 text-center">
     <div class="container">
-      <h1 class="text-center mb-5 section-title">My Projects</h1>
-      <div class="row">
-        <!-- Vitrina TN -->
-        <div class="col-md-4 mb-4" data-aos="flip-left" data-aos-delay="100">
-          <div class="card h-100 glass-card" tabindex="0">
-            <img src="assets/img/vitrina-preview.png" class="card-img-top" alt="Vitrina TN">
-            <div class="card-body">
-              <h5 class="card-title fw-bold">Vitrina TN</h5>
-              <p class="card-text">A modern online showcase platform for Tunisian marketplace.</p>
-              <a href="http://vitrinatn.tn/" target="_blank" class="btn btn-outline-primary">View Project</a>
-            </div>
-          </div>
-        </div>
-        <!-- Aquawa Souk -->
-        <div class="col-md-4 mb-4" data-aos="flip-left" data-aos-delay="200">
-          <div class="card h-100 glass-card" tabindex="0">
-            <img src="assets/img/aquawa-preview.png" class="card-img-top" alt="Aquawa Souk">
-            <div class="card-body">
-              <h5 class="card-title fw-bold">Aquawa Souk</h5>
-              <p class="card-text">An aquarium and fish market shop with specialized e-commerce features.</p>
-              <a href="http://aquawasouk.com/" target="_blank" class="btn btn-outline-primary">View Project</a>
-            </div>
-          </div>
-        </div>
-        <!-- Existing Projects -->
-        <div class="col-md-4 mb-4" data-aos="flip-left" data-aos-delay="300">
-          <div class="card h-100 glass-card" tabindex="0">
-            <img src="assets/img/ejar/ejar (1).png" class="card-img-top" alt="Ejar">
-            <div class="card-body">
-              <h5 class="card-title fw-bold">Ejar</h5>
-              <p class="card-text">A property rental platform with modern UI and robust features.</p>
-              <a href="ejar.html" class="btn btn-outline-primary">View Details</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-4" data-aos="flip-left" data-aos-delay="400">
-          <div class="card h-100 glass-card" tabindex="0">
-            <img src="assets/img/go/1.webp" class="card-img-top" alt="Go">
-            <div class="card-body">
-              <h5 class="card-title fw-bold">Gocrispy</h5>
-              <p class="card-text">A travel and booking solution for modern explorers.</p>
-              <a href="go.html" class="btn btn-outline-primary">View Details</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-4" data-aos="flip-left" data-aos-delay="500">
-          <div class="card h-100 glass-card" tabindex="0">
-            <img src="assets/img/tasareeh/tasareeh4.webp" class="card-img-top" alt="Tasareeh">
-            <div class="card-body">
-              <h5 class="card-title fw-bold">Tasareeh</h5>
-              <p class="card-text">A digital permit management application for businesses.</p>
-              <a href="tasareeh.html" class="btn btn-outline-primary">View Details</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-4" data-aos="flip-left" data-aos-delay="600">
-          <div class="card h-100 glass-card" tabindex="0">
-            <img src="assets/img/tasareehapp/tasareeh (4).png" class="card-img-top" alt="Tasareeh App">
-            <div class="card-body">
-              <h5 class="card-title fw-bold">Tasareeh App</h5>
-              <p class="card-text">Mobile app for digital permit management.</p>
-              <a href="tasareehapp.html" class="btn btn-outline-primary">View Details</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-4" data-aos="flip-left" data-aos-delay="700">
-          <div class="card h-100 glass-card" tabindex="0">
-            <img src="assets/img/tgt/tgt4.webp" class="card-img-top" alt="TGT">
-            <div class="card-body">
-              <h5 class="card-title fw-bold">Tunisia Go Travel</h5>
-              <p class="card-text">A web platform for targeted group training.</p>
-              <a href="tgt.html" class="btn btn-outline-primary">View Details</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-4" data-aos="flip-left" data-aos-delay="800">
-          <div class="card h-100 glass-card" tabindex="0">
-            <img src="assets/img/tr/tr (1).png" class="card-img-top" alt="TR">
-            <div class="card-body">
-              <h5 class="card-title fw-bold">Transport-hub</h5>
-              <p class="card-text">A transport management solution for businesses.</p>
-              <a href="tr.html" class="btn btn-outline-primary">View Details</a>
-            </div>
-          </div>
-        </div>
+      <span class="badge-pill status-available mb-3">
+        <span class="status-dot"></span> 8+ Years of Production Deliveries
+      </span>
+      <h1 class="hero-title">Selected Works & Projects</h1>
+      <p class="section-description">
+        Browse web platforms, cross-platform mobile apps, enterprise SaaS, and automated ETL pipelines created across my career.
+      </p>
+
+      <!-- Category Filter Pills -->
+      <div class="filter-container mt-4" data-aos="fade-up">
+        <button class="filter-btn active" data-filter="all">All Projects (13)</button>
+        <button class="filter-btn" data-filter="laravel-vue">Laravel & Vue.js</button>
+        <button class="filter-btn" data-filter="flutter-mobile">Flutter Mobile</button>
+        <button class="filter-btn" data-filter="saas-enterprise">SaaS & Enterprise</button>
+        <button class="filter-btn" data-filter="travel-tourism">Travel & Tourism</button>
+        <button class="filter-btn" data-filter="python-scraping">Python & Data</button>
       </div>
     </div>
   </section>
 
-  <!-- Footer -->
-  <footer class="py-4 text-white text-center" data-aos="fade-up">
+  <!-- Projects Grid -->
+  <section class="pb-5">
     <div class="container">
-      <p class="mb-0">&copy; 2024 Youssef Bellagha. All rights reserved.</p>
+      <div class="row g-4" id="projectGrid">
+
+        <!-- 1. Avocat Tunisie -->
+        <div class="col-lg-4 col-md-6 project-item" data-category="saas-enterprise laravel-vue" data-aos="fade-up">
+          <div class="glass-card project-card">
+            <div class="project-img-wrapper">
+              <img src="assets/img/projects/avocat-tunisie.jpg" alt="Avocat Tunisie SaaS" class="project-img">
+              <span class="project-badge-top"><i class="bi bi-briefcase-fill text-warning me-1"></i> Legal SaaS</span>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Avocat Tunisie</h3>
+              <p class="project-desc">
+                Legal technology SaaS for lawyers and law firms in Tunisia. Features court case tracking, hearings scheduling, document vault, and WinDev desktop application.
+              </p>
+              <div class="project-tags">
+                <span class="tech-tag">Laravel</span>
+                <span class="tech-tag">Vue.js</span>
+                <span class="tech-tag">WinDev</span>
+                <span class="tech-tag">MySQL</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://avocatunisie.tn/" target="_blank" rel="noopener" class="btn-primary-custom" style="padding:0.45rem 1rem; font-size:0.85rem;">
+                  <i class="bi bi-box-arrow-up-right"></i> Live Site
+                </a>
+                <span class="text-muted small"><i class="bi bi-building me-1"></i> Nadas Group</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. Tunisia Go Travel -->
+        <div class="col-lg-4 col-md-6 project-item" data-category="travel-tourism laravel-vue flutter-mobile" data-aos="fade-up" data-aos-delay="100">
+          <div class="glass-card project-card">
+            <div class="project-img-wrapper">
+              <img src="assets/img/tgt/tgt1.webp" alt="Tunisia Go Travel" class="project-img">
+              <span class="project-badge-top"><i class="bi bi-airplane-fill text-info me-1"></i> Web & Mobile App</span>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Tunisia Go Travel</h3>
+              <p class="project-desc">
+                High-traffic online travel agency portal and companion Flutter mobile app. Hotel reservations, guided tours, dynamic packages, and online payment integrations.
+              </p>
+              <div class="project-tags">
+                <span class="tech-tag">Laravel</span>
+                <span class="tech-tag">Flutter</span>
+                <span class="tech-tag">REST API</span>
+                <span class="tech-tag">Vue.js</span>
+              </div>
+              <div class="project-actions">
+                <a href="tgt.html" class="btn-primary-custom" style="padding:0.45rem 1rem; font-size:0.85rem;">
+                  <i class="bi bi-info-circle"></i> Details
+                </a>
+                <a href="https://tunisiagotravel.com/" target="_blank" rel="noopener" class="btn-secondary-custom" style="padding:0.45rem 1rem; font-size:0.85rem;">
+                  <i class="bi bi-box-arrow-up-right"></i> Live
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. Tourisme Go Jobs -->
+        <div class="col-lg-4 col-md-6 project-item" data-category="saas-enterprise travel-tourism laravel-vue" data-aos="fade-up" data-aos-delay="200">
+          <div class="glass-card project-card">
+            <div class="project-img-wrapper">
+              <img src="assets/img/projects/tourisme-go-jobs.jpg" alt="Tourisme Go Jobs" class="project-img">
+              <span class="project-badge-top"><i class="bi bi-people-fill text-primary me-1"></i> Job Portal</span>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Tourisme Go Jobs</h3>
+              <p class="project-desc">
+                Recruitment portal for hotels, travel agencies, and culinary institutions. Features candidate profiling, employer dashboard, CV parser, and job alert automation.
+              </p>
+              <div class="project-tags">
+                <span class="tech-tag">Laravel</span>
+                <span class="tech-tag">Vue.js</span>
+                <span class="tech-tag">REST APIs</span>
+                <span class="tech-tag">PostgreSQL</span>
+              </div>
+              <div class="project-actions">
+                <span class="badge bg-dark border border-secondary text-muted small"><i class="bi bi-check2 text-success me-1"></i> Active</span>
+                <span class="text-muted small"><i class="bi bi-building me-1"></i> Nadas Group</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. BookiTrip -->
+        <div class="col-lg-4 col-md-6 project-item" data-category="travel-tourism saas-enterprise laravel-vue flutter-mobile" data-aos="fade-up">
+          <div class="glass-card project-card">
+            <div class="project-img-wrapper">
+              <img src="assets/img/bookitrip/Screenshot 2026-09-23 091902.png" alt="BookiTrip" class="project-img">
+              <span class="project-badge-top"><i class="bi bi-compass-fill text-warning me-1"></i> Next.js · Laravel · Flutter</span>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">BookiTrip</h3>
+              <p class="project-desc">
+                High-scale travel booking ecosystem with <strong>Next.js</strong> consumer booking engine, <strong>Laravel</strong> backend with <strong>Admin & Partner</strong> portals (500+ hotels, B2B finance, POS, ClickToPay SMT), and <strong>Flutter</strong> mobile app.
+              </p>
+              <div class="project-tags">
+                <span class="tech-tag">Next.js</span>
+                <span class="tech-tag">Laravel</span>
+                <span class="tech-tag">Flutter</span>
+                <span class="tech-tag">Admin & Partner</span>
+                <span class="tech-tag">REST API</span>
+              </div>
+              <div class="project-actions">
+                <a href="bookitrip.html" class="btn-primary-custom" style="padding:0.45rem 1rem; font-size:0.85rem;">
+                  <i class="bi bi-info-circle"></i> Details
+                </a>
+                <a href="https://bookitrip.com/" target="_blank" rel="noopener" class="btn-secondary-custom" style="padding:0.45rem 1rem; font-size:0.85rem;">
+                  <i class="bi bi-box-arrow-up-right"></i> bookitrip.com
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. Transport Hub -->
+        <div class="col-lg-4 col-md-6 project-item" data-category="saas-enterprise laravel-vue" data-aos="fade-up" data-aos-delay="100">
+          <div class="glass-card project-card">
+            <div class="project-img-wrapper">
+              <img src="assets/img/tr/tr (1).png" alt="Transport Hub" class="project-img">
+              <span class="project-badge-top"><i class="bi bi-truck text-success me-1"></i> Fleet Management</span>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Transport Hub</h3>
+              <p class="project-desc">
+                Enterprise logistics management and fleet dispatch system. Contributed to digitization of core transportation processes, load optimization, and invoice processing.
+              </p>
+              <div class="project-tags">
+                <span class="tech-tag">Laravel</span>
+                <span class="tech-tag">Vue.js</span>
+                <span class="tech-tag">Bootstrap</span>
+                <span class="tech-tag">Logistics ERP</span>
+              </div>
+              <div class="project-actions">
+                <a href="tr.html" class="btn-primary-custom" style="padding:0.45rem 1rem; font-size:0.85rem;">
+                  <i class="bi bi-info-circle"></i> Details
+                </a>
+                <a href="https://www.transport-hub.ca/" target="_blank" rel="noopener" class="btn-secondary-custom" style="padding:0.45rem 1rem; font-size:0.85rem;">
+                  <i class="bi bi-box-arrow-up-right"></i> Live
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6. Ejar Real Estate -->
+        <div class="col-lg-4 col-md-6 project-item" data-category="saas-enterprise laravel-vue" data-aos="fade-up" data-aos-delay="200">
+          <div class="glass-card project-card">
+            <div class="project-img-wrapper">
+              <img src="assets/img/ejar/ejar (1).png" alt="Ejar Platform" class="project-img">
+              <span class="project-badge-top"><i class="bi bi-house-door-fill text-warning me-1"></i> Real Estate</span>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Ejar Property Portal</h3>
+              <p class="project-desc">
+                Full-featured property rental and lease management web application. Filtered property search, automated digital contracts, tenant verification, and agency portal.
+              </p>
+              <div class="project-tags">
+                <span class="tech-tag">Laravel</span>
+                <span class="tech-tag">Vue.js</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">Google Maps</span>
+              </div>
+              <div class="project-actions">
+                <a href="ejar.html" class="btn-primary-custom" style="padding:0.45rem 1rem; font-size:0.85rem;">
+                  <i class="bi bi-info-circle"></i> Details
+                </a>
+                <span class="text-muted small"><i class="bi bi-building me-1"></i> M3soft</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 7. GoCrispy -->
+        <div class="col-lg-4 col-md-6 project-item" data-category="laravel-vue" data-aos="fade-up">
+          <div class="glass-card project-card">
+            <div class="project-img-wrapper">
+              <img src="assets/img/go/1.webp" alt="GoCrispy" class="project-img">
+              <span class="project-badge-top"><i class="bi bi-bag-check-fill text-danger me-1"></i> Restaurant Chain</span>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">GoCrispy Food Ordering</h3>
+              <p class="project-desc">
+                High-performance online ordering, menu management, and real-time kitchen dispatch system for fast-food franchise with multiple branches.
+              </p>
+              <div class="project-tags">
+                <span class="tech-tag">Laravel</span>
+                <span class="tech-tag">REST API</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Order Tracking</span>
+              </div>
+              <div class="project-actions">
+                <a href="go.html" class="btn-primary-custom" style="padding:0.45rem 1rem; font-size:0.85rem;">
+                  <i class="bi bi-info-circle"></i> Details
+                </a>
+                <a href="https://www.gocrispy.com/" target="_blank" rel="noopener" class="btn-secondary-custom" style="padding:0.45rem 1rem; font-size:0.85rem;">
+                  <i class="bi bi-box-arrow-up-right"></i> Live
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 8. Tasareeh & Tasareeh App -->
+        <div class="col-lg-4 col-md-6 project-item" data-category="saas-enterprise flutter-mobile laravel-vue" data-aos="fade-up" data-aos-delay="100">
+          <div class="glass-card project-card">
+            <div class="project-img-wrapper">
+              <img src="assets/img/tasareeh/tasareeh4.webp" alt="Tasareeh" class="project-img">
+              <span class="project-badge-top"><i class="bi bi-file-earmark-lock-fill text-info me-1"></i> Gov & Permits</span>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Tasareeh Permit Platform</h3>
+              <p class="project-desc">
+                Electronic permit application, validation, and QR code verification platform for municipal and industrial approvals with accompanying mobile inspector app.
+              </p>
+              <div class="project-tags">
+                <span class="tech-tag">Laravel</span>
+                <span class="tech-tag">Flutter</span>
+                <span class="tech-tag">QR Verification</span>
+                <span class="tech-tag">PDF Generation</span>
+              </div>
+              <div class="project-actions">
+                <a href="tasareeh.html" class="btn-primary-custom" style="padding:0.45rem 1rem; font-size:0.85rem;">
+                  <i class="bi bi-laptop me-1"></i> Web
+                </a>
+                <a href="tasareehapp.html" class="btn-secondary-custom" style="padding:0.45rem 1rem; font-size:0.85rem;">
+                  <i class="bi bi-phone me-1"></i> Mobile
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 9. Booking Rose -->
+        <div class="col-lg-4 col-md-6 project-item" data-category="travel-tourism saas-enterprise laravel-vue" data-aos="fade-up" data-aos-delay="200">
+          <div class="glass-card project-card">
+            <div class="project-img-wrapper">
+              <img src="assets/img/projects/booking-rose.jpg" alt="Booking Rose" class="project-img">
+              <span class="project-badge-top"><i class="bi bi-gem text-info me-1"></i> Luxury Stays</span>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Booking Rose</h3>
+              <p class="project-desc">
+                Luxury boutique hotel and private villa reservation engine. Includes dynamic pricing engine, virtual tour links, concierge request system, and booking calendar.
+              </p>
+              <div class="project-tags">
+                <span class="tech-tag">Laravel</span>
+                <span class="tech-tag">Vue.js</span>
+                <span class="tech-tag">Payment API</span>
+                <span class="tech-tag">Calendar Sync</span>
+              </div>
+              <div class="project-actions">
+                <span class="badge bg-dark border border-secondary text-muted small"><i class="bi bi-stars text-warning me-1"></i> Luxury Travel</span>
+                <span class="text-muted small"><i class="bi bi-building me-1"></i> M3soft</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 10. Vitrina TN -->
+        <div class="col-lg-4 col-md-6 project-item" data-category="saas-enterprise laravel-vue" data-aos="fade-up">
+          <div class="glass-card project-card">
+            <div class="project-img-wrapper">
+              <img src="assets/img/vitrina-preview.png" alt="Vitrina TN" class="project-img">
+              <span class="project-badge-top"><i class="bi bi-shop text-primary me-1"></i> Marketplace</span>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Vitrina TN Marketplace</h3>
+              <p class="project-desc">
+                Online showcase and vendor marketplace enabling local artisans, merchants, and creators in Tunisia to display and market their commercial inventories.
+              </p>
+              <div class="project-tags">
+                <span class="tech-tag">Laravel</span>
+                <span class="tech-tag">Vue.js</span>
+                <span class="tech-tag">E-Commerce</span>
+                <span class="tech-tag">Search Index</span>
+              </div>
+              <div class="project-actions">
+                <a href="http://vitrinatn.tn/" target="_blank" rel="noopener" class="btn-primary-custom" style="padding:0.45rem 1rem; font-size:0.85rem;">
+                  <i class="bi bi-box-arrow-up-right"></i> Visit Site
+                </a>
+                <span class="text-muted small"><i class="bi bi-check2-circle text-success me-1"></i> Live</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 11. Aquawa Souk -->
+        <div class="col-lg-4 col-md-6 project-item" data-category="saas-enterprise" data-aos="fade-up" data-aos-delay="100">
+          <div class="glass-card project-card">
+            <div class="project-img-wrapper">
+              <img src="assets/img/aquawa-preview.png" alt="Aquawa Souk" class="project-img">
+              <span class="project-badge-top"><i class="bi bi-water text-info me-1"></i> Niche E-Commerce</span>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Aquawa Souk</h3>
+              <p class="project-desc">
+                Specialized e-commerce store dedicated to aquariums, marine accessories, and aquatic life care products with catalog filtering and cart management.
+              </p>
+              <div class="project-tags">
+                <span class="tech-tag">PHP / Laravel</span>
+                <span class="tech-tag">Bootstrap</span>
+                <span class="tech-tag">Checkout Flow</span>
+              </div>
+              <div class="project-actions">
+                <a href="http://aquawasouk.com/" target="_blank" rel="noopener" class="btn-primary-custom" style="padding:0.45rem 1rem; font-size:0.85rem;">
+                  <i class="bi bi-box-arrow-up-right"></i> Visit Shop
+                </a>
+                <span class="text-muted small"><i class="bi bi-cart-check text-success me-1"></i> Store</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 12. Python Scraping Pipelines -->
+        <div class="col-lg-4 col-md-6 project-item" data-category="python-scraping" data-aos="fade-up" data-aos-delay="200">
+          <div class="glass-card project-card">
+            <div class="project-img-wrapper d-flex align-items-center justify-content-center" style="background: radial-gradient(circle, #1e1b4b 0%, #090d16 100%);">
+              <div class="text-center p-4">
+                <i class="bi bi-cpu-fill" style="font-size:4rem; color:var(--primary-light);"></i>
+                <div class="text-white fw-bold mt-2" style="font-family:var(--font-code);">PYTHON REAL-TIME ETL</div>
+              </div>
+              <span class="project-badge-top"><i class="bi bi-lightning-charge-fill text-warning me-1"></i> Data & Python</span>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Automated Scraping Pipelines</h3>
+              <p class="project-desc">
+                Real-time data extraction and processing pipelines with Python, Pandas, and NumPy for automated price comparison, hotel inventory sync, and market intelligence.
+              </p>
+              <div class="project-tags">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Pandas</span>
+                <span class="tech-tag">NumPy</span>
+                <span class="tech-tag">BeautifulSoup</span>
+                <span class="tech-tag">ETL & Linux</span>
+              </div>
+              <div class="project-actions">
+                <span class="badge bg-dark border border-secondary text-muted small"><i class="bi bi-terminal-fill text-info me-1"></i> Real-time Scraping</span>
+                <span class="text-muted small"><i class="bi bi-building me-1"></i> Nadas Group</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row align-items-center justify-content-between g-3">
+        <div class="col-md-6 text-center text-md-start">
+          <div class="fw-bold text-white fs-5">Bellagha Youssef</div>
+          <div class="text-muted small">Senior Full Stack Developer · Laravel · Vue.js · Flutter · Python</div>
+          <div class="text-subtle small mt-1">&copy; 2026 Bellagha Youssef. All rights reserved.</div>
+        </div>
+        <div class="col-md-6 text-center text-md-end">
+          <div class="d-flex justify-content-center justify-content-md-end gap-3 mb-2">
+            <a href="https://www.linkedin.com/in/bellagha-youssef-73b790205/" target="_blank" class="text-muted fs-5" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="https://github.com/bellaghayoussef" target="_blank" class="text-muted fs-5" aria-label="GitHub"><i class="bi bi-github"></i></a>
+            <a href="https://wa.me/21656818880" target="_blank" class="text-muted fs-5" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+            <a href="mailto:bellaghayoussef20@gmail.com" class="text-muted fs-5" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
+          </div>
+          <a href="#" class="text-primary-light small"><i class="bi bi-arrow-up-circle-fill me-1"></i> Back to top</a>
+        </div>
+      </div>
     </div>
   </footer>
+
+  <!-- Scripts -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/js/animate.js"></script>
   <script>
-    AOS.init({
-      duration: 900,
-      once: true
+    AOS.init({ duration: 800, once: true });
+    window.addEventListener('scroll', () => {
+      const nav = document.getElementById('mainNavbar');
+      if (window.scrollY > 50) nav.classList.add('scrolled');
+      else nav.classList.remove('scrolled');
+    });
+
+    // Category Filter Functionality
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const projectItems = document.querySelectorAll('.project-item');
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        const filter = btn.getAttribute('data-filter');
+        projectItems.forEach(item => {
+          if (filter === 'all') {
+            item.style.display = 'block';
+          } else {
+            const categories = item.getAttribute('data-category').split(' ');
+            if (categories.includes(filter)) {
+              item.style.display = 'block';
+            } else {
+              item.style.display = 'none';
+            }
+          }
+        });
+      });
     });
   </script>
 </body>
-</html> 
+</html>
